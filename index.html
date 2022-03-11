@@ -64,7 +64,7 @@
 
 
     <section>
-        <h2>How does javascript works?</h2>
+        <h2 class="text-center mt-4 mb-2">How does javascript works?</h2>
         <div>
             <p>
                 1.
@@ -90,6 +90,31 @@
             </p>
             <p>5.
                 জাভাস্ক্রিপ্ট Single-threaded way তে code execute করে।
+            </p>
+
+        </div>
+        <div>
+            <h2 class="text-center">How does javascript event loop?</h2>
+            <p>
+                1. event loop callback queue এবং stack এর মধ্যে যোগাযোগ maintain করে।
+
+            </p>
+
+            <p>
+                2. event loop fifo(first in first out) পদ্ধতিতে কাজ করে।
+            </p>
+            <p>
+                3. event loop এর সাহায্যে javascript asynchronous way তে কাজ করে।
+            </p>
+
+            <p>
+                4. stack এর সকল synchronous কাজ শেষ হলে event loop callback queue এর asynchronous call কে stack এ প্রেরণ
+                করে।
+
+            </p>
+
+            <p>
+                5.event loop render queue কে callback queue এর থেকে বেশি priority দেয়।
             </p>
 
         </div>
